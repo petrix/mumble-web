@@ -27,14 +27,14 @@ window.mumbleWebConfig = {
   'defaults': {
     // Connect Dialog
     'address': window.location.hostname,
-    'port': '443',
+    'port': '64738',
     'token': '',
-    'username': '',
-    'password': '',
+    'username': 'zzz',
+    'password': 'cgtimer',
     'joinDialog': false, // replace whole dialog with single "Join Conference" button
     'matrix': false, // enable Matrix Widget support (mostly auto-detected; implies 'joinDialog')
     'avatarurl': '', // download and set the user's Mumble avatar to the image at this URL
     // General
-    'theme': 'MetroMumbleLight'
+    'theme': 'MetroMumbleDark'
   }
 }
